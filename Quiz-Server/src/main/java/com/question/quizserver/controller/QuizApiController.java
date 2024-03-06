@@ -19,7 +19,7 @@ import com.question.quizserver.service.QuizeService;
 
 @RestController
 @RequestMapping("/quiz")
-public class QuizController {
+public class QuizApiController {
 	
 	@Autowired
 	private QuizeService quizService;
